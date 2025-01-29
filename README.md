@@ -5,6 +5,11 @@
 - ⚡️ [React 18](https://beta.reactjs.org/)
 - 🦾 TypeScript, of course
 - 🎨 [Tailwind](https://tailwindcss.com/) - next generation utility-first CSS
+- ⏱️ Stopwatch functionality:
+  - Precise timing with centisecond accuracy
+  - Start/Pause/Reset controls
+  - Clean time display (MM:SS:CS format)
+  - Memory-leak free implementation
 
 ### Coding Style
 
