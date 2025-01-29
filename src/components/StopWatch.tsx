@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-function App() {
+function AppStopWatch() {
     const [time, setTime] = useState(0);
     const [isRunning, setIsRunning] = useState(false);
 
@@ -57,4 +57,4 @@ function App() {
     );
 }
 
-export default App;
+export default AppStopWatch;

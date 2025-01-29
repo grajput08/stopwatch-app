@@ -1,15 +1,44 @@
-# Stopwatch App
+# Interactive Chess & Stopwatch App
 
 ## Features
 
-- ⚡️ [React 18](https://beta.reactjs.org/)
-- 🦾 TypeScript, of course
-- 🎨 [Tailwind](https://tailwindcss.com/) - next generation utility-first CSS
-- ⏱️ Stopwatch functionality:
-  - Precise timing with centisecond accuracy
-  - Start/Pause/Reset controls
-  - Clean time display (MM:SS:CS format)
-  - Memory-leak free implementation
+- ⚡️ [React 18](https://beta.reactjs.org/) with Modern Hooks
+- 🦾 TypeScript Implementation
+- 🎨 [Tailwind CSS](https://tailwindcss.com/) - Responsive Design
+- 🧭 Navigation:
+  - Clean header with tab switching
+  - Route-based navigation between features
+  - Active tab highlighting
+
+### ⏱️ Stopwatch Features
+
+- Precise timing with centisecond accuracy (MM:SS:CS format)
+- Interactive controls:
+  - Start: Begin the timer
+  - Pause: Temporarily stop
+  - Reset: Return to 00:00:00
+- Memory-leak free implementation
+- Optimized re-rendering
+
+### ♟️ Chessboard Features
+
+- Dynamic grid generation (1x1 to 12x12)
+- Interactive size controls:
+  - Input field for direct number entry
+  - Arrow key support (↑/↓) for incremental changes
+  - Input validation with size limits
+- Optimized rendering using:
+  - useMemo for board generation
+  - CSS Grid for layout
+  - Responsive square sizing
+- Classic alternating color pattern
+
+### Development Tools
+
+- [ESLint](https://eslint.org/) - TypeScript/React configuration
+- [Prettier](https://prettier.io/) - Code formatting
+- React Router for navigation
+- Vite for fast development
 
 ### Coding Style
 
