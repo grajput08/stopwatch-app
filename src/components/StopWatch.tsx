@@ -1,4 +1,3 @@
-import React from "react";
 import useStopwatch from "./UseTimer";
 
 function AppStopWatch() {

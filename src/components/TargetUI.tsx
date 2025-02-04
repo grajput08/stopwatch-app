@@ -1,5 +1,3 @@
-import React from "react";
-
 const TargetUI = () => {
   return (
     <div className="flex justify-center items-center h-screen bg-white">
